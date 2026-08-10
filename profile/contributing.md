@@ -1,4 +1,4 @@
-# Contributing to dialogoo
+# Contributing to AI SAFE EARTH
 
 Thanks for your interest in contributing!  
 We're building human-centered, AI-assisted tools that prioritize ethical design, open collaboration, and real-world connection. Your input matters.
@@ -7,7 +7,7 @@ We're building human-centered, AI-assisted tools that prioritize ethical design,
 
 ## Core Principles
 
-At dialogoo, we:
+At AI SAFE EARTH, we:
 
 - Build with **people, communities, and cultures at the center**.
 - Use LLMs as **infrastructure**, not personalities or replacements.
@@ -23,7 +23,7 @@ If this resonates with you, you're in the right place.
 ### 1. Fork & Clone
 
 ```bash
-git clone https://github.com/dialogoo/your-target-repo.git
+git clone https://github.com/ai-safe-earth/your-target-repo.git
 cd your-target-repo
 ```
 
@@ -49,7 +49,7 @@ git push origin your-feature-name
 
 ### 5. Open a Pull Request
 Describe the why behind your change.
-If it's experimental, note it. If it's core to the project, explain how it aligns with dialogoo’s values.
+If it's experimental, note it. If it's core to the project, explain how it aligns with AI SAFE EARTH's values.
 
 ### 6. Commit Message Guidelines
 Not a must, but a good practice that soon or later you should apply ->> follow the [Angular commit message guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#commit)
