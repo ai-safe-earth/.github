@@ -1,0 +1,41 @@
+{
+  "name": "ai-safe-earth",
+  "version": 2,
+  "note": "v2 institutional identity. A clean slate — no value is carried over from the previous kit.",
+  "core": {
+    "ink":   { "hex": "#131A21", "use": "deep earth ink — text, rings, dark panels" },
+    "paper": { "hex": "#F2EFE8", "use": "paper — surfaces, knockouts on ink" },
+    "sea":   { "hex": "#1F5D7A", "use": "slate sea — the earth disc, links" },
+    "clay":  { "hex": "#C4692A", "use": "the place — the single warm point, org accent" }
+  },
+  "supporting": {
+    "clayInk": { "hex": "#A5541F", "use": "clay as text or hover state" },
+    "slate":   { "hex": "#4A5560", "use": "body text, secondary seal text" },
+    "stone":   { "hex": "#C3BEB2", "use": "hairline rules, borders" },
+    "mist":    { "hex": "#9AA3A8", "use": "muted labels" },
+    "page":    { "hex": "#DCD8CE", "use": "page background behind paper panels" },
+    "paperAlt":{ "hex": "#EAE6DC", "use": "alternate paper tone" }
+  },
+  "projectPoint": {
+    "_rule": "Only the place-point ever changes colour. Never recolour the disc, never close the ring.",
+    "ai-safe-territory": { "hex": "#C4692A" },
+    "ai-safety-guardrails": { "hex": "#2E7D74" },
+    "udo": { "hex": "#8A6D2F" },
+    "laiive": { "hex": "#A63D6E" },
+    "get-out-door": { "hex": "#4F7A3D" },
+    "whitepaper": { "hex": "#C4692A", "note": "org-level document — uses the organization point" }
+  },
+  "type": {
+    "grotesk": { "family": "Archivo", "weights": [400, 500, 600, 700], "use": "the institution — letterspaced caps, labels, headings" },
+    "serif":   { "family": "Spectral", "weights": [400, 500, 600], "italic": [400], "use": "the argument — running prose" },
+    "mono":    null
+  },
+  "rules": [
+    "All three words of the name at one size and one weight, so AI carries no more voice than EARTH.",
+    "Clear space equals the radius of the disc.",
+    "Minimum width 96px; below that use the core mark alone.",
+    "Project-coloured variants have a floor at 64px; below it use the organization mark.",
+    "No gradients, no pills, no monospace, no emoji, no diagonal wedge. Square corners, hairline rules.",
+    "Layout devices come from the map, not the pitch deck: scale bars, corner ticks, crop marks."
+  ]
+}

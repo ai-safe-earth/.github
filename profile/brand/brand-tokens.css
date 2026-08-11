@@ -1,0 +1,62 @@
+/* AI SAFE EARTH — brand tokens (v2)
+   Institutional identity. Supersedes the v1 tokens entirely; nothing carries over
+   from the former name. Drop into any project and use the variables below. */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+:root {
+  /* Core */
+  --ase-ink:    #131A21;  /* deep earth ink — text, rings, dark panels */
+  --ase-paper:  #F2EFE8;  /* paper — surfaces, knockouts on ink */
+  --ase-sea:    #1F5D7A;  /* slate sea — the earth disc, links */
+  --ase-clay:   #C4692A;  /* the place — the single warm point, org accent */
+
+  /* Supporting */
+  --ase-clay-ink: #A5541F;  /* clay as text or hover */
+  --ase-slate:    #4A5560;  /* body text, secondary seal text */
+  --ase-stone:    #C3BEB2;  /* hairline rules, borders */
+  --ase-mist:     #9AA3A8;  /* muted labels */
+  --ase-page:     #DCD8CE;  /* page behind paper panels */
+  --ase-paper-alt:#EAE6DC;
+
+  /* Project point — only the place ever changes colour */
+  --ase-point-territory:  #C4692A;
+  --ase-point-guardrails: #2E7D74;
+  --ase-point-udo:        #8A6D2F;
+  --ase-point-laiive:     #A63D6E;
+
+  /* Type: grotesk for the institution, serif for the argument. No monospace. */
+  --ase-font-grotesk: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --ase-font-serif:   "Spectral", Georgia, serif;
+
+  /* Square corners. Hairline rules. */
+  --ase-radius: 0;
+  --ase-rule:   1px solid var(--ase-stone);
+}
+
+body {
+  background: var(--ase-paper);
+  color: var(--ase-ink);
+  font-family: var(--ase-font-serif);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ase-font-grotesk);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* The institutional voice: letterspaced caps, never a pill */
+.ase-label {
+  font-family: var(--ase-font-grotesk);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  font-size: 0.72rem;
+  color: var(--ase-mist);
+}
+
+a { color: var(--ase-sea); }
+a:hover { color: var(--ase-clay-ink); }
+
+hr { border: 0; border-top: var(--ase-rule); }
