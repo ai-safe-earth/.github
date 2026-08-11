@@ -20,10 +20,12 @@
   --ase-paper-alt:#EAE6DC;
 
   /* Project point — only the place ever changes colour */
-  --ase-point-territory:  #C4692A;
-  --ase-point-guardrails: #2E7D74;
-  --ase-point-udo:        #8A6D2F;
-  --ase-point-laiive:     #A63D6E;
+  --ase-point-territory:    #C4692A;
+  --ase-point-guardrails:   #2E7D74;
+  --ase-point-udo:          #8A6D2F;
+  --ase-point-laiive:       #A63D6E;
+  --ase-point-get-out-door: #4F7A3D;
+  --ase-point-whitepaper:   #C4692A;  /* org-level document — the organization point */
 
   /* Type: grotesk for the institution, serif for the argument. No monospace. */
   --ase-font-grotesk: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
