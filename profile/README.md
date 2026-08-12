@@ -71,7 +71,7 @@ Two main strategies lead the AI SAFE EARTH building arm:
 #### [laiive](https://github.com/ai-safe-earth/laiive/tree/main)
 
 ![Stage: build, going to market](https://img.shields.io/badge/BUILD-GOING_TO_MARKET-A63D6E?style=flat-square&labelColor=131A21) ![Progress: 80%](https://img.shields.io/badge/PROGRESS-80%25-A63D6E?style=flat-square&labelColor=131A21) ![Done: backend built](https://img.shields.io/badge/DONE-backend_built-4A5560?style=flat-square&labelColor=131A21) ![Done: frontend developed](https://img.shields.io/badge/DONE-frontend_developed-4A5560?style=flat-square&labelColor=131A21) ![Active: GTM in progress](https://img.shields.io/badge/ACTIVE-GTM_in_progress-4A5560?style=flat-square&labelColor=131A21) ![Open: launch pending](https://img.shields.io/badge/OPEN-launch_pending-4A5560?style=flat-square&labelColor=131A21)
-  
+
 The first project under the AI SAFE EARTH umbrella. Some of the services built behind laiive are being developed as project-agnostic, so they can be used by other projects to extend AI SAFE EARTH's values.
 
 #### [get-out-door](https://github.com/ai-safe-earth/get-out-door)
@@ -93,7 +93,7 @@ A modular package that adds layered protection around LLM applications across th
 #### [UDO Recommender System](https://github.com/ai-safe-earth/UDO)
 
 ![Stage: build, concept](https://img.shields.io/badge/BUILD-CONCEPT-8A6D2F?style=flat-square&labelColor=131A21) ![Progress: 10%](https://img.shields.io/badge/PROGRESS-10%25-8A6D2F?style=flat-square&labelColor=131A21) ![Done: architecture defined](https://img.shields.io/badge/DONE-architecture_defined-4A5560?style=flat-square&labelColor=131A21) ![Risk: decision pending](https://img.shields.io/badge/RISK-decision_pending-4A5560?style=flat-square&labelColor=131A21) ![Open: dev not started](https://img.shields.io/badge/OPEN-dev_not_started-4A5560?style=flat-square&labelColor=131A21) ![Open: no GTM yet](https://img.shields.io/badge/OPEN-no_GTM_yet-4A5560?style=flat-square&labelColor=131A21)
-  
+
 UDO stands for User Data Ownership. No black box manipulates users: they are aware of what they share or privately use to feed the recommender system, and can delete or modify it at any time.
 
 ---
