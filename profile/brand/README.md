@@ -7,7 +7,7 @@ come from here.
 Other repos vendor what they need — usually just `mark.svg` at
 `<repo>/.github/brand/mark.svg` — or link to the raw file:
 
-```
+```text
 https://raw.githubusercontent.com/ai-safe-earth/.github/main/profile/brand/<path>
 ```
 
@@ -173,7 +173,7 @@ mark and colour, and says it is an AI SAFE EARTH project.
 
 ## Files
 
-```
+```text
 profile/brand/
 ├─ mark.svg                  the emblem on an ink plaque — what repos vendor
 ├─ banner.svg                org banner, live text (do not use on GitHub)

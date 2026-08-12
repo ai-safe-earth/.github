@@ -32,7 +32,7 @@ reads as a document rather than a landing page.
 SVG rendered by GitHub and most document pipelines cannot load a webfont, so every
 logo file declares a fallback chain that degrades to another grotesk:
 
-```
+```xml
 font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif"
 ```
 
