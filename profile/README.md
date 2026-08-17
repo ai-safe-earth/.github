@@ -74,7 +74,7 @@ Two main strategies lead the AI SAFE EARTH building arm:
 
 The first project under the AI SAFE EARTH umbrella. Some of the services built behind laiive are being developed as project-agnostic, so they can be used by other projects to extend AI SAFE EARTH's values.
 
-#### [VaiVia](https://github.com/ai-safe-earth/get-out-door)
+#### [VaiVia](https://github.com/ai-safe-earth/vaivia)
 
 ![Stage: build, in development](https://img.shields.io/badge/BUILD-IN_DEVELOPMENT-4F7A3D?style=flat-square&labelColor=131A21) ![Progress: 20%](https://img.shields.io/badge/PROGRESS-20%25-4F7A3D?style=flat-square&labelColor=131A21) ![Done: graph schema designed](https://img.shields.io/badge/DONE-graph_schema_designed-4A5560?style=flat-square&labelColor=131A21) ![Active: ingestion pipeline](https://img.shields.io/badge/ACTIVE-ingestion_pipeline-4A5560?style=flat-square&labelColor=131A21) ![Open: chatbot query layer](https://img.shields.io/badge/OPEN-chatbot_query_layer-4A5560?style=flat-square&labelColor=131A21) ![Open: API endpoints](https://img.shields.io/badge/OPEN-API_endpoints-4A5560?style=flat-square&labelColor=131A21)
 
