@@ -68,8 +68,7 @@ Two main strategies lead the AI SAFE EARTH building arm:
 
 ### Civic Tech Applications
 
-#### [laiive](https://github.com/ai-safe-earth/laiive/tree/main)
-
+#### [laiive](https://github.com/ai-safe-earth/laiive)
 ![Stage: build, going to market](https://img.shields.io/badge/BUILD-GOING_TO_MARKET-A63D6E?style=flat-square&labelColor=131A21) ![Progress: 80%](https://img.shields.io/badge/PROGRESS-80%25-A63D6E?style=flat-square&labelColor=131A21) ![Done: backend built](https://img.shields.io/badge/DONE-backend_built-4A5560?style=flat-square&labelColor=131A21) ![Done: frontend developed](https://img.shields.io/badge/DONE-frontend_developed-4A5560?style=flat-square&labelColor=131A21) ![Active: GTM in progress](https://img.shields.io/badge/ACTIVE-GTM_in_progress-4A5560?style=flat-square&labelColor=131A21) ![Open: launch pending](https://img.shields.io/badge/OPEN-launch_pending-4A5560?style=flat-square&labelColor=131A21)
 
 The first project under the AI SAFE EARTH umbrella. Some of the services built behind laiive are being developed as project-agnostic, so they can be used by other projects to extend AI SAFE EARTH's values.
