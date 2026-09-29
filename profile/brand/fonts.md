@@ -1,42 +1,39 @@
-# AI SAFE EARTH — fonts (v2)
+# AI SAFE EARTH fonts (v3)
 
-Two families, both free and open-source. **There is no monospace in this system** —
-the technical voice comes from letterspaced grotesk caps, not from code type.
-
-## The system
+There are two families, both free and SIL OFL. There is no third.
 
 | Role | Family | Weights | Notes |
 |---|---|---|---|
-| **The institution** | Archivo | 400 / 500 / 600 / 700 | Headings, labels, the wordmark. Uppercase and letterspaced for kickers and seals. |
-| **The argument** | Spectral | 400 / 500 / 600, italic 400 | Running prose. The book, the whitepaper, any sustained reading. |
-
-The pairing is deliberate: a grotesk that reads as a public institution, and a serif that
-reads as a document rather than a landing page.
+| Headlines + wordmark | **Anybody** (variable, width axis) | 900 | caps, 120–130% width, tight tracking |
+| Text | **Anybody** | 400, 600 | sentence case, 1.5 leading |
+| Labels, code, data, badges | **IBM Plex Mono** | 400, 500, 600 | times, counts, commands, diffs |
 
 ## HTML
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,400..900;1,50..150,400..900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 ```
 
-## CSS
+## Width axis
 
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+font-family: "Anybody", sans-serif;
+font-weight: 900;
+font-stretch: 122%;   /* 130% for the wordmark */
 ```
 
 ## Fallbacks
 
-SVG rendered by GitHub and most document pipelines cannot load a webfont, so every
-logo file declares a fallback chain that degrades to another grotesk:
+GitHub and most document pipelines load no webfonts. Text-bearing art ships as PNG. In CSS:
 
-```xml
-font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+```css
+font-family: "Anybody", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
 ```
 
 ## Download
 
-- Archivo — https://fonts.google.com/specimen/Archivo
-- Spectral — https://fonts.google.com/specimen/Spectral
+- Anybody: https://fonts.google.com/specimen/Anybody
+- IBM Plex Mono: https://fonts.google.com/specimen/IBM+Plex+Mono
