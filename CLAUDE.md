@@ -1,38 +1,47 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file guides Claude Code (claude.ai/code) when it works in this repository.
 
 ## What this repo is
 
-`ai-safe-earth/.github` — the GitHub organization profile for AI SAFE EARTH, plus the org's brand kit. Content only: no build, no tests, no CI, no linter, no package manifest. Pushing to `main` is the publish step.
+`ai-safe-earth/.github` holds the GitHub organisation profile for AI SAFE EARTH and the org's brand kit. It is content only: no build, tests, CI, linter or package manifest. Pushing to `main` publishes.
 
 ## Load-bearing paths
 
-- GitHub renders the org profile from `profile/README.md` and nowhere else. Moving or renaming it silently blanks the org page.
-- There is deliberately no root `README.md`. Adding one does not appear on the org page.
-- `profile/brand/` is the single source of truth for the org's marks, palette and type. Read `profile/brand/README.md` before touching anything visual.
-- The local clone sits under a `DIALOGOO` parent directory. That is the pre-rename name — the organization is AI SAFE EARTH. Never reintroduce "Dialogoo" into content.
+- GitHub renders the org profile from `profile/README.md` and nowhere else. Moving or renaming it blanks the org page without any warning.
+- There is deliberately no root `README.md`.
+- `profile/brand/` is the source of truth for marks, palette and type.
+- Never reintroduce "Dialogoo" into content.
 
 ## Workflow
 
-- Every change goes on a branch and through a pull request, even solo ones. Never commit to `main` directly.
-- Conventional commit messages (`feat:`, `fix:`) — see `profile/contributing.md`.
-- `profile/brand/ROLLOUT.md` is a live checklist, not a record. Treat it as read-only: when a rollout item looks complete, say so and ask before ticking it.
+- Every change goes on a branch and through a pull request, even solo changes. Never commit to `main`.
+- Use conventional commit messages (`feat:`, `fix:`).
 
-## Brand invariants
+## Brand v3: hi-vis / vector (replaces the v2 emblem system)
 
-Full grammar lives in `profile/brand/README.md`. These are the rules that break silently:
+- **Mark:** three rings (the fronts: street, code, decision makers) whose arrows converge on one goal node. Geometry only (`brand/mark.svg`, `brand/mark-on-black.svg`), safe anywhere. At 24px and below, drop the arrowheads.
+- **Colour:** `#E6FF00` hi-vis yellow is the brand and every action. `#0A0A0A` is ink, `#F4F4EF` is paper. `#FF3B30` means risk or finding and nothing else. On the web, `#7B3CFF` marks the street front, yellow the code front and `#2D4BFF` the decision-makers front. On GitHub the same colours mark the contribution branches: BUILD yellow, RESEARCH blue, COMMUNICATE violet. Use yellow plus black plus at most one signal colour per view.
+- **Type:** Anybody (wide 900 caps for headlines, 400 for text) and IBM Plex Mono for labels, code and data. GitHub loads no webfonts, so any text-bearing art ships as PNG (`brand/profile-banner.png`).
+- **Voice:** field orders. Short, imperative, honest numbers. Main line: "We provide the materials. You build an AI safe world." Method: Spot · Build · Hit. Rotating lines: real networks, a better world. The banner carries the main line. Never use any pull-requests-vs-letters line.
+- **No emoji** anywhere. Use a badge label half instead.
 
-- **No emoji** — prose, headings, badges, anywhere. Use a badge label half instead: `DONE-…`, `ACTIVE-…`, `OPEN-…`, `RISK-…`.
-- **On GitHub use the PNG masters, never the SVGs that set text.** GitHub does not load webfonts, so text-bearing SVGs fall back to Helvetica at Archivo's letter-spacing: use `profile-banner.png` not `banner.svg`, `logo/…wordmark*.png` not `…wordmark*.svg`, `logo/…seal-1280.png` not `…seal*.svg`. Geometry-only SVGs (`mark.svg`, emblems, icons, favicons, project marks) are safe anywhere.
-- **The emblem**: never close the ring, never recolour the disc, never set a project name inside it. Only the point changes colour, one per project.
-- **The name** is three words at one size and one weight, so "AI" carries no more voice than "EARTH". `AI SAFE EARTH` in prose.
-- No gradients, no pills, no monospace, no diagonal wedge. Square corners, hairline rules. Ink `#131A21` instead of black, paper `#F2EFE8` instead of white.
+## Badge grammar (v3)
+
+- Every badge uses `style=flat-square&labelColor=0A0A0A`.
+- The first badge is the branch and stage: BUILD `E6FF00`, RESEARCH `2D4BFF`, COMMUNICATE `7B3CFF`.
+- The progress badge uses the branch colour.
+- Checklist chips use `DONE` / `ACTIVE` / `OPEN` in `3A3A36`, and `RISK` in `FF3B30`.
+- In project repos only, the umbrella badge comes last: `AI_SAFE_EARTH-build_research_communicate-0A0A0A`, linked to the org.
+- `%` is written `%25` and `+` is written `%2B`.
 
 ## profile/README.md conventions
 
-- Opens with the banner image alone — no H1. A `---` rule between every section. Heading levels never skip.
-- In-progress items are marked `*(in progress)*` in italics.
-- Each project heading is followed by one line of space-separated badges. `%` is URL-encoded `%25`.
-- The org profile carries **no** umbrella badge and **no** vendored `mark.svg` header — this page is the umbrella. Those belong in project repos, per the skeleton in `profile/brand/README.md`.
-- Footer is raw HTML `<sub>`, separators are `·` (U+00B7), and `&` is written as the entity `&amp;`.
+- Open with the banner image alone, with no H1. Put a `---` rule between sections. Never skip heading levels.
+- The profile is for contributors. Audience paths ("pick your path") belong on the website, not here.
+- Order: intro and lines, problem, three fronts, how we move, goal, then BUILD / RESEARCH / COMMUNICATE with their projects, civic tech, why, values, contributing, and the white paper last.
+- Animated art sits in `profile/brand/art/*.gif`, with a static `.png` of each. GitHub art is on a white ground: ink text, yellow as a highlight block behind words, never as yellow text. The README uses animated GIFs, which play everywhere, including VS Code preview. The `_*.png` layers come from `README Art.dc.html`.
+- Mark in-progress items `*(in progress)*`. The prose concepts are the founder's own words, so keep them.
+- The footer is raw HTML `<sub>` with `·` separators, and `&` is written as `&amp;`.
+- v2 assets (`logo/`, `projects/`, `banner.svg`) are deleted in the v3 PR. See `profile/brand/ROLLOUT.md` for the per-repo rollout.
+- The full spec lives in `profile/brand/README.md`. Links, licence and version badges use `2D4BFF`.
