@@ -1,7 +1,7 @@
 
 <img src="./brand/art/hero.gif" width="100%" alt="AI SAFE EARTH. We provide the materials. You build an AI safe world. We don't rely on social media to socialise, we build real networks. We don't talk about the end of the world, we build a better one.">
 
-## AI safety integral strategy and civic tech
+## AI safety integral strategy
 
 **Social infrastructure is critical infrastructure.**
 **AI safety begins where humans meet.**
@@ -51,8 +51,8 @@ This is how we act. Direct.
 
 ## Goal
 
-- A population informed about AI risks.
-- A population using AI safe apps.
+- A population informed about AI risks. 
+- A population using AI safe apps. 
 - A population connected, informed and ready to respond to any kind of AI risk.
 - An active army of coders fixing software that isn't AI safe.
 - A non-individualised population: people connected, not isolated users.
@@ -60,7 +60,7 @@ This is how we act. Direct.
 
 ---
 
-## Contribute: three ways, one fight
+## Contribute: three ways, one goal
 
 Contributors build the apps, tools, research and materials that everyone else uses.
 
@@ -77,16 +77,15 @@ Two lines of work:
 
 ### Applications for a resilient territory
 
-#### How we think about civic tech and apply AI
+##### How we think about applying AI
 
-We turn the algorithmic loop into a bridge toward real life. We don't use AI as an addictive form of interaction. We use it to bring people back to people, pulling users out of infinite scrolling and dopamine drain and into face-to-face socialising and public life. We return data ownership to users and keep it secure to prevent deep manipulation.
+We apply AI to turn the algorithmic loop into a bridge toward real life. We don't use AI as an addictive form of interaction. We use it to bring people back to people, pulling users out of infinite scrolling and dopamine drain and into face-to-face socialising and public life. We return data ownership to users and keep it secure to prevent deep manipulation.
 
-#### Why
+##### Why
 
 Because it is too risky to rely on a digital network whose control could be captured.
 Because AI safety begins where humans meet.
 
-#### Core values
 
 **At AI SAFE EARTH, we:**
 
@@ -94,6 +93,7 @@ Because AI safety begins where humans meet.
 - Treat physical networks and communities as a resilience layer for a healthy system.
 - Keep humans, cultures and communities at the centre.
 - Keep AI out of the layer between people.
+- Build tools for balance, not distraction.
 
 **We don't:**
 
@@ -102,7 +102,6 @@ Because AI safety begins where humans meet.
 - Replace real relationships with simulation.
 - Sell people's lives or intimacies in any data format.
 
-We build tools for balance, not distraction.
 
 #### [laiive](https://github.com/ai-safe-earth/laiive)
 
@@ -114,9 +113,9 @@ The first project under the AI SAFE EARTH umbrella: a global cultural agenda tha
 
 ![Build: app, in development](https://img.shields.io/badge/BUILD-IN_DEVELOPMENT-E6FF00?style=flat-square&labelColor=0A0A0A) ![Progress: 20%](https://img.shields.io/badge/PROGRESS-20%25-E6FF00?style=flat-square&labelColor=0A0A0A) ![Done: graph schema designed](https://img.shields.io/badge/DONE-graph_schema_designed-3A3A36?style=flat-square&labelColor=0A0A0A) ![Active: ingestion pipeline](https://img.shields.io/badge/ACTIVE-ingestion_pipeline-3A3A36?style=flat-square&labelColor=0A0A0A) ![Open: chatbot query layer](https://img.shields.io/badge/OPEN-chatbot_query_layer-3A3A36?style=flat-square&labelColor=0A0A0A) ![Open: API endpoints](https://img.shields.io/badge/OPEN-API_endpoints-3A3A36?style=flat-square&labelColor=0A0A0A)
 
-A multi-hop adventure chatbot, developed project-agnostic so it can be reused across the umbrella. It connects people with trails, hikes and outdoor routes through a knowledge graph that answers complex natural-language queries, pulling users away from the screen and into the physical world.
+VaiVia connects people with trails, hikes and outdoor routes through a knowledge graph that answers complex natural-language queries, pulling users away from the screen and into the physical world.
 
-### Tools to make any software AI safe
+### Tools to make any AI software safe
 
 #### [AISG: AI Safety Guardrails & Audit](https://github.com/ai-safe-earth/AI-Safety-Guardrails)
 
@@ -129,13 +128,13 @@ A tool that applies to any piece of software using AI, in two parts:
 - **Audit:** a skill and toolset that reviews any repository using AI, maps the system, checks it against a safety and good-practice list (human oversight, data, robustness, transparency, EU AI Act, GDPR), and proposes the fixes as a pull request.
 - **Guardrails:** a modular package that adds layered protection around LLM applications at four stages: input, processing and tool calls, output, and policy and compliance. It reduces risks such as PII leakage, prompt injection, unsafe tool use and harmful responses before they reach users. Audit logging and compliance modules (EU AI Act, NIST AI RMF) provide traceability and governance for real-world deployment.
 
-#### AI safety toolbox *(open)*
+#### AI safety compilation *(open)*
 
 ![Build: tool, concept](https://img.shields.io/badge/BUILD-CONCEPT-E6FF00?style=flat-square&labelColor=0A0A0A) ![Open: contributors wanted](https://img.shields.io/badge/OPEN-contributors_wanted-3A3A36?style=flat-square&labelColor=0A0A0A)
 
 A compilation of open tools that coders can apply to make software AI safe.
 
-#### Prompt audits *(open)*
+#### Prompt and algorithm audits *(open)*
 
 ![Build: tool, concept](https://img.shields.io/badge/BUILD-CONCEPT-E6FF00?style=flat-square&labelColor=0A0A0A) ![Open: contributors wanted](https://img.shields.io/badge/OPEN-contributors_wanted-3A3A36?style=flat-square&labelColor=0A0A0A)
 
