@@ -39,7 +39,7 @@ This file guides Claude Code (claude.ai/code) when it works in this repository.
 
 - Open with the banner image alone, with no H1. Put a `---` rule between sections. Never skip heading levels.
 - The profile is for contributors. Audience paths ("pick your path") belong on the website, not here.
-- Order: intro and lines, problem, three fronts, how we move, goal, then BUILD / RESEARCH / COMMUNICATE with their projects, civic tech, why, values, contributing, and the white paper last.
+- Order: intro and lines, problem, three fronts, how we move, goal, then BUILD / RESEARCH / COMMUNICATE with their projects, and contributing. Civic tech, why and core values sit inside BUILD, under "Applications for a resilient territory", before its projects. The white paper section is removed until the paper is developed.
 - Animated art sits in `profile/brand/art/*.gif`, with a static `.png` of each. GitHub art is on a white ground: ink text, yellow as a highlight block behind words, never as yellow text. The README uses animated GIFs, which play everywhere, including VS Code preview. The `_*.png` layers come from `README Art.dc.html`.
 - Mark in-progress items `*(in progress)*`. The prose concepts are the founder's own words, so keep them.
 - The footer is raw HTML `<sub>` with `·` separators, and `&` is written as `&amp;`.

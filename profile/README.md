@@ -31,6 +31,8 @@ Some forecasts put transformative AI in years, not decades. We may be unprepared
 | **CODE** | developers and engineers | audit any repository that uses AI, contribute fixes, make software AI safe |
 | **DECISION MAKERS** | local administrations, organisations, institutions | audit their own administration, support AI safety initiatives, train public employees and inform the population |
 
+**Strategic focus: act on the community layer, at scale.** Communities are where AI risk lands and where it can be stopped, so every front works through them.
+
 AI SAFE EARTH builds the materials each of these actions needs, simple and ready to apply.
 
 ---
@@ -53,6 +55,8 @@ This is how we act. Direct.
 - A population using AI safe apps.
 - A population connected, informed and ready to respond to any kind of AI risk.
 - An active army of coders fixing software that isn't AI safe.
+- A non-individualised population: people connected, not isolated users.
+- Communities as the core social node.
 
 ---
 
@@ -64,14 +68,41 @@ Contributors build the apps, tools, research and materials that everyone else us
 
 ## BUILD
 
-This is the action arm. We build safe apps that rebalance digital and physical social interaction, reinforce local communities and social dynamics, and return data ownership to people. Physical and local networks are the safety net. Social infrastructure is critical infrastructure, and we build to make it stronger, fast, before AGI, malicious actors using AI and digital imbalance create a critical combination.
+This is the action arm. We build safe apps that rebalance digital and physical social interaction and reinforce local communities and social dynamics. Physical and local networks are the safety net. Social infrastructure is critical infrastructure, and we build to make it stronger, fast, before AGI, malicious actors using AI and digital imbalance create a critical combination.
 
 Two lines of work:
 
-1. **Apps for a resilient territory.** They promote physical, direct interaction: human to human, human to nature, human to organisation. They put people in touch and leave the communication itself without AI as an intermediate layer. Keeping that layer out is how we keep human agency.
+1. **Applications for a resilient territory.** They promote physical, direct interaction: human to human, human to nature, human to organisation. They put people in touch and leave the communication itself without AI as an intermediate layer. Keeping that layer out is how we keep human agency.
 2. **Tools that make any software AI safe.** Skills, packages and repos that can be applied to any other codebase that uses AI.
 
-### Apps for a resilient territory
+### Applications for a resilient territory
+
+#### How we think about civic tech and apply AI
+
+We turn the algorithmic loop into a bridge toward real life. We don't use AI as an addictive form of interaction. We use it to bring people back to people, pulling users out of infinite scrolling and dopamine drain and into face-to-face socialising and public life. We return data ownership to users and keep it secure to prevent deep manipulation.
+
+#### Why
+
+Because it is too risky to rely on a digital network whose control could be captured.
+Because AI safety begins where humans meet.
+
+#### Core values
+
+**At AI SAFE EARTH, we:**
+
+- Use AI to reconnect, not to trap.
+- Treat physical networks and communities as a resilience layer for a healthy system.
+- Keep humans, cultures and communities at the centre.
+- Keep AI out of the layer between people.
+
+**We don't:**
+
+- Build artificial companions.
+- Optimise for engagement or addiction.
+- Replace real relationships with simulation.
+- Sell people's lives or intimacies in any data format.
+
+We build tools for balance, not distraction.
 
 #### [laiive](https://github.com/ai-safe-earth/laiive)
 
@@ -104,6 +135,17 @@ A tool that applies to any piece of software using AI, in two parts:
 
 A compilation of open tools that coders can apply to make software AI safe.
 
+#### Prompt audits *(open)*
+
+![Build: tool, concept](https://img.shields.io/badge/BUILD-CONCEPT-E6FF00?style=flat-square&labelColor=0A0A0A) ![Open: contributors wanted](https://img.shields.io/badge/OPEN-contributors_wanted-3A3A36?style=flat-square&labelColor=0A0A0A)
+
+Audits of the prompts behind AI products. They look for:
+
+- manipulation;
+- user information used to create addiction;
+- any trace of attention-economy algorithms;
+- persona substitution: the borderline where a chat turns into a fake person.
+
 ---
 
 ## RESEARCH
@@ -118,6 +160,12 @@ Research into AI-safe towns and cities, and a transparent, reproducible evaluati
 
 The research is published and evolving as a [living book](https://ai-safe-earth.github.io/AI-Safe-Territory/).
 
+### AI Safe Map *(open)*
+
+![Research: concept](https://img.shields.io/badge/RESEARCH-CONCEPT-2D4BFF?style=flat-square&labelColor=0A0A0A) ![Open: contributors wanted](https://img.shields.io/badge/OPEN-contributors_wanted-3A3A36?style=flat-square&labelColor=0A0A0A)
+
+A map of AI risks and of exposure to them. It works at territorial grain, not country grain, so it sits closer to the impact on each community.
+
 ---
 
 ## COMMUNICATE
@@ -130,50 +178,17 @@ We turn research into pressure. This branch creates the materials for AI safety 
 
 Practical, accessible programmes and materials for the local leaders who hold communities together. They are ready to use in a training session, a meeting or a proposal to a local administration.
 
----
+### AI adoption for SMEs and micro businesses: the SAFE way *(open)*
 
-## How we think about civic tech and apply AI
+![Communicate: concept](https://img.shields.io/badge/COMMUNICATE-CONCEPT-7B3CFF?style=flat-square&labelColor=0A0A0A) ![Open: contributors wanted](https://img.shields.io/badge/OPEN-contributors_wanted-3A3A36?style=flat-square&labelColor=0A0A0A)
 
-We turn the algorithmic loop into a bridge toward real life. We don't use AI as an addictive form of interaction. We use it to bring people back to people, pulling users out of infinite scrolling and dopamine drain and into face-to-face socialising and public life. We return data ownership to users and keep it secure to prevent deep manipulation.
-
----
-
-## Why
-
-Because it is too risky to rely on a digital network whose control could be captured.
-Because AI safety begins where humans meet.
-
----
-
-## Core values
-
-### At AI SAFE EARTH, we:
-
-- Use AI to reconnect, not to trap.
-- Treat physical networks and communities as a resilience layer for a healthy system.
-- Keep humans, cultures and communities at the centre.
-- Keep AI out of the layer between people.
-
-### We don't:
-
-- Build artificial companions.
-- Optimise for engagement or addiction.
-- Replace real relationships with simulation.
-- Sell people's lives or intimacies in any data format.
-
-We build tools for balance, not distraction.
+Materials that help small and medium enterprises (SMEs) and micro businesses adopt AI the safe way.
 
 ---
 
 ## Contributing
 
 Build, research or communicate. Start with [contributing](./contributing.md), pick an `OPEN` badge above, or [open an issue](https://github.com/ai-safe-earth/.github/issues) and tell us what you want to do.
-
----
-
-## White paper
-
-A white paper is in progress to ground these ideas in data, research and methodology: **[AI SAFE EARTH White Paper](https://github.com/ai-safe-earth/whitepaper)**. Until then: prototype, connect and share.
 
 ---
 
