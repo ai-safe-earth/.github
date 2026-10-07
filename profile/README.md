@@ -51,8 +51,8 @@ This is how we act. Direct.
 
 ## Goal
 
-- A population informed about AI risks. 
-- A population using AI safe apps. 
+- A population informed about AI risks.
+- A population using AI safe apps.
 - A population connected, informed and ready to respond to any kind of AI risk.
 - An active army of coders fixing software that isn't AI safe.
 - A non-individualised population: people connected, not isolated users.
@@ -77,15 +77,14 @@ Two lines of work:
 
 ### Applications for a resilient territory
 
-##### How we think about applying AI
+#### How we think about applying AI
 
 We apply AI to turn the algorithmic loop into a bridge toward real life. We don't use AI as an addictive form of interaction. We use it to bring people back to people, pulling users out of infinite scrolling and dopamine drain and into face-to-face socialising and public life. We return data ownership to users and keep it secure to prevent deep manipulation.
 
-##### Why
+#### Why
 
 Because it is too risky to rely on a digital network whose control could be captured.
 Because AI safety begins where humans meet.
-
 
 **At AI SAFE EARTH, we:**
 
@@ -101,7 +100,6 @@ Because AI safety begins where humans meet.
 - Optimise for engagement or addiction.
 - Replace real relationships with simulation.
 - Sell people's lives or intimacies in any data format.
-
 
 #### [laiive](https://github.com/ai-safe-earth/laiive)
 
