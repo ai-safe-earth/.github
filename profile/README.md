@@ -51,7 +51,7 @@ This is the action arm. We build safe apps that rebalance digital and physical s
 An audit of the intentions built into AI software: the prompts a product gives its model, and the algorithms around them. It does not hunt for errors, failures or unwanted behaviour. It looks for what the system is built to do to the person using it.
 
 
-### Applications for digital balance:
+### Applications for digital balance with ethical AI:
 
 #### AI against attention economy.
 We apply AI to turn the algorithmic loop into a bridge toward real life. We don't use AI as an addictive form of interaction. We use it to bring people back to people or back to real-world interactions, pulling users out of infinite scrolling and dopamine drain and into face-to-face socialising and public life. 
