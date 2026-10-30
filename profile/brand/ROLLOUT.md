@@ -8,7 +8,7 @@ This tracks where each surface stands against [the spec](./README.md). Every row
 |---|---|---|---|---|---|---|
 | `.github` (profile) | all | banner PNG | ✗ | ✗ | ✗ | **this PR** |
 | `AI-Safe-Territory` | RESEARCH | ✗ | ✗ | ✗ | ✗ | outstanding |
-| `AI-Safety-Guardrails` (AISG) | BUILD | ✗ | ✗ | ✗ | ✗ | outstanding |
+| `AnyAISafe` (was AISG) | BUILD | ✗ | ✗ | ✗ | ✗ | outstanding |
 | `laiive` | BUILD | ✗ | ✗ | ✗ | ✗ | outstanding |
 | `VaiVia` | BUILD | ✗ | ✗ | ✗ | ✗ | outstanding |
 | `whitepaper` | independent | ✗ | ✗ | ✗ | ✗ | outstanding |
@@ -34,7 +34,6 @@ This tracks where each surface stands against [the spec](./README.md). Every row
 
 - [ ] `laiive`: resolve the remote (`OscarArroyoVega/laiive` vs `ai-safe-earth/laiive`), remove the emoji brand mark, fix the heading jump, and move the `user-attachments` images into the repo.
 - [ ] `VaiVia`: fix the placeholder clone URL, the broken `docs/…` links, and the untracked files.
-- [ ] `AI-Safety-Guardrails`: the `#eu-ai-act-compliance` and `#nist-ai-rmf-compliance` anchors don't resolve.
 
 ## Beyond GitHub
 
@@ -44,5 +43,5 @@ This tracks where each surface stands against [the spec](./README.md). Every row
 
 ## Out of the profile
 
-- `UDO`, `lei` and the AI Safe Earth Map are no longer listed on the org profile. The audit skill ships inside AISG (`AI-Safety-Guardrails`).
+- `UDO`, `lei` and the AI Safe Earth Map are no longer listed on the org profile. AISG (AI Safety Guardrails & Audit) is stopped. Its repo was renamed `AnyAISafe`, which audits prompts and algorithms only.
 - UDO and lei Their repos keep their own READMEs, and v3 badges are optional there.
