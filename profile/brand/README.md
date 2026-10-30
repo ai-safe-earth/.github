@@ -165,7 +165,7 @@ Project apps keep their own brand in the product (laiive fuchsia, VaiVia lime). 
 |---|---|
 | `laiive` | BUILD · app |
 | `VaiVia` | BUILD · app |
-| `AI-Safety-Guardrails` (AISG, guardrails + audit) | BUILD · tool |
+| `AnyAISafe` (prompt and algorithm audit; replaces AISG) | BUILD · tool |
 | `AI-Safe-Territory` + living book | RESEARCH |
 | AI Safety for Community Leaders | COMMUNICATE |
 | `whitepaper` | independent, at the foot of the profile |
